@@ -1,0 +1,23 @@
+@media [メディアタイプ][論理演算子][(メディア特性:値)]｛
+セレクタ｛処置｝
+｝
+
+
+
+@media screen and (min-width:375px)and(min-width:600px){
+div{color:red;
+}
+
+
+メディアタイプ
+screen            ディスプレイ　スマホ　PC　デスクトップ
+print			印刷プレビューモード
+speech		音声合成
+all			全ての端末
+
+
+@media (max-width:1000px){
+h1 {
+	color:red;
+｝
+}
